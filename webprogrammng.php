@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -137,11 +138,12 @@
                <h2 class="section-title">Contact</h2>
 
                <div class="contact__container bd-grid">
-                   <form action="" class="contact__form">
-                       <input type="text" placeholder="Name" class="contact__input">
-                       <input type="mail" placeholder="Email" class="contact__input">
-                       <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                       <input type="button" value="Send" class="contact__button button">
+                   <form action="contact.php" method="POST">
+                       <input type="text" placeholder="Name" name="name" class >
+                       <input type="mail" placeholder="Email" name="email">
+                       <textarea name="message" id="" cols="0" rows="10" ></textarea>
+                       <input type="submit" value="Send" name="send" >
+                       <input type="submit" value="display" name="display">
                    </form>
                </div>
            </section>
@@ -163,3 +165,7 @@
 
      </body>
      </html>
+
+ 
+     
+    
