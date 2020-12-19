@@ -139,9 +139,9 @@
 
                <div class="contact__container bd-grid">
                    <form action="contact.php" method="POST">
-                       <input type="text" placeholder="Name" name="name" class >
-                       <input type="mail" placeholder="Email" name="email">
-                       <textarea name="message" id="" cols="0" rows="10" ></textarea>
+                       <input type="text" placeholder="Name" name="name"class="contact__input" >
+                       <input type="mail" placeholder="Email" name="email"class="contact__input">
+                       <textarea name="message" id="" cols="0" rows="10"class="contact__input"></textarea>
                        <input type="submit" value="Send" name="send" >
                        <input type="submit" value="display" name="display">
                    </form>
